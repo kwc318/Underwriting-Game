@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
+    public int x;
+
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +16,11 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void Approved()
+    {
+        x = 2;
+        Debug.Log(x);
+    }
+
 }
